@@ -74,6 +74,9 @@ We'll find you the right developer who can help you in 15 minutes
                                         <state key="normal" title="Sign in">
                                             <color key="titleColor" red="1" green="0.97361310840000004" blue="0.9841179498" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vPh-ch-XjZ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I1g-v8-o0a">
                                         <rect key="frame" x="0.0" y="40" width="169" height="30"/>
